@@ -1,0 +1,55 @@
+.main__title {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: Montserrat Alternates;
+  font-size: 24px;
+}
+
+.year-game__detalisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.year-game__title {
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid #000;
+  width: 536px;
+  color: #000;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+}
+
+.year-game__form {
+  margin-right: 150px;
+}
+
+.year-game__input {
+  display: inline-flex;
+  padding: 10px 45px 10px 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  background: #d7d7d7;
+}
+
+.year-game__btn {
+    /* position: absolute; */
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 0px 20px 20px 0px;
+  background: #000;
+}
+
+.year-game__text {
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+}
