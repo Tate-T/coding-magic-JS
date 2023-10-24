@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.number_form {
+    display: flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.number_item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 135px;
+    height: 35px;
+    color: #7E7E7E;
+    width: 135px;
+    height: 35px;
+    border-radius: 20px;
+    background: #D7D7D7;
+}
+
+.number_button {
+    width: 135px;
+    height: 35px;
+    border-radius: 20px;
+    background: #D7D7D7;
+}
+
+.number_result {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
