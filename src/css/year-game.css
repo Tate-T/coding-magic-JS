@@ -5,12 +5,11 @@
   font-family: Montserrat Alternates;
   font-size: 24px;
 }
-
-.year-game__detalisation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 36px;
+@media (max-width: 321px) {
+  .main__title {
+    text-align: center;
+    font-size: 30px;
+  }
 }
 
 .year-game__title {
@@ -25,31 +24,95 @@
   font-family: Montserrat Alternates;
   font-size: 16px;
 }
+@media (max-width: 321px) {
+  .year-game__title {
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.year-game__detalisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+@media (max-width: 321px) {
+  .year-game__detalisation {
+    display: block;
+    align-items: center;
+  }
+}
 
 .year-game__form {
+  display: flex;
+  flex-direction: row;
   margin-right: 150px;
+
+  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.25));
+}
+@media (max-width: 321px) {
+  .year-game__form {
+  padding-left: 55px;
+}
 }
 
 .year-game__input {
+  color: #7e7e7e;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 400;
   display: inline-flex;
-  padding: 10px 45px 10px 10px;
+  padding: 10px 45px 11px 10px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 20px;
   background: #d7d7d7;
+  border: 1px solid #ccc;
+}
+@media (max-width: 321px) {
+  .year-game__input {
+    padding: 7px 20px 7px 7px;
+}
 }
 
 .year-game__btn {
-    /* position: absolute; */
+  position: absolute;
   display: inline-flex;
-  padding: 10px;
+  padding: 11.6px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 0px 20px 20px 0px;
+  border: none;
   background: #000;
+  margin-left: 85%;
+}
+@media (max-width: 321px) {
+  .year-game__btn {
+    padding: 7px 10px 9px 7px;
+    margin-left: 105%;
+  }
+}
+
+
+.year-game__svg {
+  width: 15px;
+  height: 15px;
 }
 
 .year-game__text {
   font-family: Montserrat Alternates;
-  font-size: 12px;
+  font-size: 13px;
+}
+@media (max-width: 321px) {
+  .year-game__text {
+    margin-top: 30px;
+    text-align: center;
+    
+  }
 }
