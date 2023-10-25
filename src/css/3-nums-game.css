@@ -8,19 +8,22 @@
     line-height: normal;
 }
 
-.number_form {
+.number_wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
     display: flex;
     padding: 10px 20px;
     align-items: flex-start;
     gap: 10px;
+    display: flex;
 }
 
 .number_item {
+    text-align: center;
+    color: #000;
     margin-left: auto;
     margin-right: auto;
-    width: 135px;
-    height: 35px;
-    color: #7E7E7E;
     width: 135px;
     height: 35px;
     border-radius: 20px;
@@ -28,13 +31,18 @@
 }
 
 .number_button {
-    width: 135px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
     height: 35px;
     border-radius: 20px;
-    background: #D7D7D7;
+    background: #76d340;
 }
 
 .number_result {
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
