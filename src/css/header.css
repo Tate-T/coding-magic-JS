@@ -1,15 +1,23 @@
 .list_header{
     display: flex;
+    margin-left: 81px;
 }
 
 .list-link-header{
 margin-right:  50px ;
 }
+.list-link-header:first-child{
+    margin-right:  0px ;
+    }
+    .dropdown{
+        margin-right: 50px;
+    }
 .list-link-header:last-child{
     margin-right:  0px ; 
 }
 .links-header{
 color: #000;
+margin-left: 81px;
 font-family: Montserrat Alternates;
 font-size: 12px;
 font-style: normal;
@@ -30,6 +38,7 @@ nav {
   display: flex;
 }
 .container{
+    
     width: 1090px;
     padding-left: 15px;
     padding-right: 15px;
@@ -47,27 +56,37 @@ font-weight: 400;
 line-height: normal;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
 
-.show {
-    display: block;
-}
-.dropdown {
+
+.svg-logo{width: 93px;
+    height: 38.145px;
+    flex-shrink: 0;}
+
+    .title-logo{
+        margin-right:81px ;
+    }
+    .logo_title{
+        color: #000;
+    margin-left: 9px;
+    font-family: Sacramento;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .span_header{
+        color: #000;
     
-    overflow: hidden;
-}
-
-
-.dropdown .button_header {
-    cursor: pointer;
-    font-size: 16px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+    font-family: Montserrat Alternates;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+.svg-button-header{
+    width: 5px;
+height: 9px;
+flex-shrink: 0;
+stroke-width: 0.75px;
+stroke: #000;
 }
