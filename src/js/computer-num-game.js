@@ -2,7 +2,7 @@ const input = document.querySelector(".num-game__input");
 const numBtn = document.querySelector(".num-game__btn");
 const answer = document.querySelector(".num-game__text");
 let min = 1;
-let max = 2;
+let max = 100;
 const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
 
 numBtn.addEventListener("click", () => {
