@@ -1,6 +1,9 @@
 .year-game__section{
   margin-top: 36px;
   margin-bottom: 36px;
+  width: 536px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main__title {
@@ -43,7 +46,7 @@
 
 .year-game__detalisation {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 36px;
 }
@@ -57,7 +60,6 @@
 .year-game__form {
   display: flex;
   flex-direction: row;
-  margin-right: 150px;
 
   filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.25));
 }
