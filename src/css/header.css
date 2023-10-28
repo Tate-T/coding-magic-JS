@@ -2,8 +2,55 @@
     display: flex;
     margin-left: 81px;
 }
+.title-header{
+    color: #000;
+
+text-align: right;
+font-family: Montserrat Alternates;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.svg-white-black{
+    width: 15.033px;
+height: 14.667px;
+flex-shrink: 0;
+border-radius: 15.033px;
+}
+.box-header{
+    display: flex;
+    margin-left: 320px;
+}
+.box-btn-header{
+    width: 40px;
+    margin-right: 30px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #7A7A7A;
+}
+.btn-white-black{
+    display: flex;
+    width: 20.5px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 15.033px;
+    fill: #FFF;
+    
+    stroke-width: 0.5px;
+    stroke: #000;
+}
 .dropdown-content{
+    
     display: none;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 .list-link-form-header{
     width: 160px;
@@ -15,6 +62,9 @@ border-right: 1px solid #000;
 border-left: 1px solid #000;
 
 background: #FFF;
+}
+.list-link-form-header:hover{
+    background: #D7D7D7;
 }
 .list-link-form-header:last-child{
     width: 160px;
@@ -48,6 +98,7 @@ margin-right:  50px ;
 }
 .list-link-header:first-child{
     margin-right:  0px ;
+    
     }
     
 .list-link-header:last-child{
@@ -63,10 +114,9 @@ font-weight: 400;
 line-height: normal;
 }
 
-.links-header:hover{
-color:aqua;
-}
+
 .dropdown{
+    position: relative;
     margin-right: 50px;
 }
 
@@ -130,4 +180,9 @@ height: 9px;
 flex-shrink: 0;
 stroke-width: 0.75px;
 stroke: #000;
+}
+.button_header{
+    background: none;
+    background-color: none;
+    border: none;
 }
