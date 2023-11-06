@@ -1,0 +1,77 @@
+.google-dino {
+    z-index: 2;
+}
+
+.dino_title {
+    text-align: center;
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top: 2px solid #000;
+}
+
+.wrap {
+    border-bottom: 1px solid #000;
+    width: 720px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
+}
+
+.dino {
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    background-image: url(../img/dino.png);
+    background-size: 50px 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.cactus {
+    width: 20px;
+    height: 40px;
+    background-image: url(../img/cactus.png);
+    background-size: 20px 40px;
+    bottom: 40px;
+    left: 700px;
+    position: relative;
+    animation: cactusMove 1.5s infinite linear;
+    z-index: 2;
+}
+
+@keyframes cactusMove {
+    0% {
+        left: 700px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+.jump {
+    animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 0px;
+    }
+    25%{
+        top: -30px;
+    }
+    50%{
+        top: -70px;
+    }
+    75%{
+        top: -30px;
+    }
+    100% {
+        top: 0px;
+    }
+}
