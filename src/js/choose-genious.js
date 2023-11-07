@@ -1,4 +1,16 @@
-const scientists = [ 
+
+function headerModal() {
+    var dropdownContent = document.getElementById("myDropdown");
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  }
+  
+  // header
+  // main
+  const scientists = [ 
     { 
         name: "Albert", 
         surname: "Einstein", 
@@ -132,7 +144,7 @@ const scientists = [
       });
   });
   
-  // Визначення функцій для фільтрації:
+  
   
   const filterFunctions = [
       scientist => scientist.born >= 1801 && scientist.born <= 1900,
@@ -144,4 +156,5 @@ const scientists = [
       scientist => scientist.name.charAt(0) !== "A",
       (a, b) => (a.dead - a.born) - (b.dead - b.born),
   ];
+  
   
