@@ -1,0 +1,85 @@
+.k-n-p__section {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  width: 536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.k-n-p__title {
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 2px solid #000;
+  width: 536px;
+  color: #000;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+}
+
+.k-n-p__btns {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  display: flex;
+  margin-left: 138px;
+  gap: 38px;
+}
+
+.k-n-p__btn {
+  background-color: black;
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  border-radius: 20px;
+  background: #000;
+}
+
+.k-n-p__result {
+  color: black;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.k-n-p__computer-choose {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  border-radius: 20px;
+  background: #000;
+  color: #fff;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  margin-top: 36px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.k-n-p__scores {
+    margin-left: 10px;
+}
+
+.k-n-p__computer-score {
+  color: #000;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.k-n-p__score {
+  color: #000;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.k-n-p__your-score {
+  color: #000;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+
+  font-weight: 400;
+}
