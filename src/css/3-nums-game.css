@@ -34,17 +34,6 @@
     border: none;
 }
 
-.number_button {
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 180px;
-    height: 35px;
-    border-radius: 20px;
-    background: #76d340;
-}
-
 .number_result {
     margin-top: 20px;
     margin-left: auto;
@@ -56,4 +45,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 36px;
 }
