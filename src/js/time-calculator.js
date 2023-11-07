@@ -1,36 +1,36 @@
-const input = document.querySelector(".time-calculator__input");
-const button = document.querySelector(".time-calculator__btn");
-const answer = document.querySelector(".time-calculator__answer");
+const input = document.querySelector("time-calculator__input");
+const btn = document.querySelector("time-calculator__btn");
+const answer = document.querySelector("time-calculator__answer");
 
-button.addEventListener("click", () => {
+btn.addEventListener("click", () => {
   const seconds = parseInt(input.value);
   if (!isNaN(seconds)) {
     const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
+    const remainderSeconds = seconds % 60;
     let result = "";
     if (minutes >= 60) {
       const hours = Math.floor(minutes / 60);
-      const remainingMinutes = minutes % 60;
+      const remainderMinutes = minutes % 60;
       if (hours >= 24) {
         const days = Math.floor(hours / 24);
-        const remainingHours = hours % 24;
+        const remainderHours = hours % 24;
         result = `${days} дн.`;
-        if (remainingHours > 0) {
-          result += `${remainingHours}:${remainingMinutes
+        if (remainderHours > 0) {
+          result += `${remainderHours}:${remainderMinutes
             .toString()
-            .padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`;
+            .padStart(2, "0")}:${remainderSeconds.toString().padStart(2, "0")}`;
         } else {
-          result += `${remainingMinutes}:${remainingSeconds
+          result += `${remainderMinutes}:${remainderSeconds
             .toString()
             .padStart(2, "0")}`;
         }
       } else {
-        result = `${hours}:${remainingMinutes
+        result = `${hours}:${remainderMinutes
           .toString()
-          .padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`;
+          .padStart(2, "0")}:${remainderSeconds.toString().padStart(2, "0")}`;
       }
     } else {
-      result = `0:${remainingSeconds.toString().padStart(2, "0")}`;
+      result = `0:${remainderSeconds.toString().padStart(2, "0")}`;
     }
     answer.textContent = result;
   }
