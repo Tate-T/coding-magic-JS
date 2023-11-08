@@ -6,14 +6,43 @@
     text-align: center;
     color: #000;
     font-family: Montserrat Alternates;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     border-top: 2px solid #000;
-    padding-top: 36px;
-    margin-top: 36px;
+    padding-top: 28px;
+    margin-top: 25px;
 }
+@media screen and (min-width: 768px) {
+    .dino_title {
+        text-align: center;
+        color: #000;
+        font-family: Montserrat Alternates;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-top: 2px solid #000;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .dino_title {
+        text-align: center;
+        color: #000;
+        font-family: Montserrat Alternates;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-top: 2px solid #000;
+        padding-top: 36px;
+        margin-top: 36px;
+    }
+  }
 
 .wrap {
     border-bottom: 1px solid #000;

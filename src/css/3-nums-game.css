@@ -2,48 +2,161 @@
     text-align: center;
     color: #000;
     font-family: Montserrat Alternates;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 36px;
+    padding-top: 25px;
     border-top: 2px solid #000;
 }
+@media screen and (min-width: 768px) {
+    .title {
+        text-align: center;
+        color: #000;
+        font-family: Montserrat Alternates;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 30px;
+        border-top: 2px solid #000;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .title {
+        text-align: center;
+        color: #000;
+        font-family: Montserrat Alternates;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 36px;
+        border-top: 2px solid #000;
+    }
+  }
 
 .number_wrap{
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 400px;
     display: flex;
-    padding: 10px 20px;
+    padding: 5px 10px;
     align-items: flex-start;
-    gap: 10px;
+    gap: 8px;
     display: flex;
 }
+
+@media screen and (min-width: 768px) {
+    .number_wrap {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        display: flex;
+        padding: 8px 15px;
+        align-items: flex-start;
+        gap: 9px;
+        display: flex;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .number_wrap {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        display: flex;
+        padding: 10px 20px;
+        align-items: flex-start;
+        gap: 10px;
+        display: flex;
+    }
+  }
 
 .number_item {
     text-align: center;
     color: #000;
     margin-left: auto;
     margin-right: auto;
-    width: 135px;
+    width: 105px;
     height: 35px;
     border-radius: 20px;
     background: #D7D7D7;
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
     border: none;
 }
+@media screen and (min-width: 768px) {
+    .number_item {
+        text-align: center;
+        color: #000;
+        margin-left: auto;
+        margin-right: auto;
+        width: 115px;
+        height: 35px;
+        border-radius: 20px;
+        background: #D7D7D7;
+        box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .number_item {
+        text-align: center;
+        color: #000;
+        margin-left: auto;
+        margin-right: auto;
+        width: 135px;
+        height: 35px;
+        border-radius: 20px;
+        background: #D7D7D7;
+        box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+    }
+  }
 
 .number_result {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: #000;
     font-family: Montserrat Alternates;
-    font-size: 22px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 36px;
+    padding-bottom: 25px;
 }
+@media screen and (min-width: 768px) {
+    .number_result {
+        margin-top: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: #000;
+        font-family: Montserrat Alternates;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .number_result {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: #000;
+        font-family: Montserrat Alternates;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 36px;
+    }
+  }
