@@ -17,6 +17,17 @@
   font-family: Montserrat Alternates;
   font-size: 16px;
 }
+@media (max-width: 321px) {
+    .k-n-p__title {
+      text-align: center;
+      font-size: 20px;
+      width: 300px;
+      justify-content: center;
+      margin-left: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 
 .k-n-p__btns {
   margin-top: 36px;
@@ -25,6 +36,13 @@
   margin-left: 138px;
   gap: 38px;
 }
+@media (max-width: 321px) {
+    .k-n-p__btns {
+      display: block;
+    margin-left: 30%;
+    }
+  }
+  
 
 .k-n-p__btn {
   background-color: black;
@@ -34,6 +52,11 @@
   border-radius: 20px;
   background: #000;
 }
+@media (max-width: 321px) {
+    .k-n-p__btn {
+      margin-right: 10px;
+    }
+  }
 
 .k-n-p__result {
   color: black;
@@ -61,6 +84,13 @@
 .k-n-p__scores {
     margin-left: 10px;
 }
+@media (max-width: 321px) {
+    .k-n-p__scores {
+      text-align: center;
+      margin-top: 20px;
+      margin-right: 45%;
+    }
+  }
 
 .k-n-p__computer-score {
   color: #000;

@@ -4,10 +4,10 @@ const answer = document.querySelector(".year-game__text");
 
 gameBtn.addEventListener("click", () => {
     if(input.value % 4 === 0){
-        answer.textContent = "Ви народилися у високосний рік!"
-        answer.style.color = "#039900"
+        answer.textContent = "Ви народилися у високосний рік!";
+        answer.style.color = "#039900";
     }else{
-        answer.textContent = "Ви народилися не у високосний рік!"
-        answer.style.color = "#900"
+        answer.textContent = "Ви народилися не у високосний рік!";
+        answer.style.color = "#900";
     }
 })

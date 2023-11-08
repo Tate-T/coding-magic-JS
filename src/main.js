@@ -1,7 +1,7 @@
+import './js/k-n-p';
 import './js/header';
 import './js/year-game';
 import './js/computer-num-game';
-import './js/k-n-p';
 import './js/calculator';
 import './js/3-nums-game';
 import './js/google-dino';
