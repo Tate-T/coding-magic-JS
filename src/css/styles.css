@@ -1,4 +1,9 @@
-
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
 @import url('./reset.css');
 @import url("./3-nums-game.css");
 @import url("./football.css");
@@ -36,9 +41,28 @@
 }
 
 body {
-  background-image: url(../img/main.png);
+  background-image: none;
   width: 100%;
   height: 1300px;
-  background-size: cover; 
+  background-size: cover;
 }
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../img/main.png);
+  }
+}
+/* :root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
