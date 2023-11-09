@@ -10,10 +10,34 @@
 @import url("./google-dino.css");
 
 .container {
-  width: 1090px;
-  height: 2222px;
+  width: 620px;
+  height: 3000px;
   background-color: white;
   z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+      width: 750px;
+      height: 3250px;
+      background-color: white;
+      z-index: -1;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+      width: 1090px;
+      height: 3500px;
+      background-color: white;
+      z-index: -1;
+      margin-left: auto;
+      margin-right: auto;
+  }
 }
 
 body {
