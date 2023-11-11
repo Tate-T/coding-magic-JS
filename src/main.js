@@ -1,5 +1,5 @@
-import './js/k-n-p';
 import './js/header';
+import './js/k-n-p';
 import './js/year-game';
 import './js/computer-num-game';
 import './js/calculator';
