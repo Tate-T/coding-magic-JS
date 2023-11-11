@@ -1,7 +1,7 @@
-const ball = document.querySelector(".ball")
-const field = document.querySelector(".game")
-const ballWidth = ball.clientWidth
-const ballHeight = ball.clientHeight
+const ball = document.querySelector(".ball");
+const field = document.querySelector(".game");
+const ballWidth = ball.clientWidth;
+const ballHeight = ball.clientHeight;
 
 ball.style.left = field.clientWidth / 2 - ballWidth / 2 + "px"
 ball.style.top = field.clientHeight / 2 - ballHeight / 2 + "px"
