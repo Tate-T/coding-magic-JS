@@ -1,8 +1,7 @@
+
 function headerModal() {
   var dropdownContent = document.getElementById("myDropdown");
-  var computedStyle = window.getComputedStyle(dropdownContent);
-
-  if (computedStyle.display === "block" || computedStyle.display === "") {
+  if (dropdownContent.style.display === "block") {
     dropdownContent.style.display = "none";
   } else {
     dropdownContent.style.display = "block";
