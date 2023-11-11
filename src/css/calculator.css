@@ -2,11 +2,6 @@
   margin-top: 36px;
   margin-bottom: 36px;
 }
-@media (max-width: 321px) {
-  .calculator__section {
-    margin-left: 37%;
-  }
-}
 
 .calculator__title {
   color: #000;
@@ -44,7 +39,6 @@
       display: grid;
       align-items: center;
       grid-template-rows: 30px 30px;
-      margin-left: 45%;
     }
 }
 
