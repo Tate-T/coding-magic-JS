@@ -1,4 +1,12 @@
-.title-calculator__main {
+.time-calculator__section {
+  margin-top: 36px;
+  margin-bottom: 36px;
+  width: 536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-calculator__title {
   color: #000;
   font-family: Montserrat Alternates;
   font-size: 16px;
@@ -12,6 +20,16 @@
   margin-top: 36px;
   border-top: 2px solid #000;
   width: 536px;
+}
+@media (max-width: 321px) {
+  .title-calculator__title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+    border-top: 2px solid #000;
+    width: 300px;
+    justify-content: center;
+  }
 }
 
 .time-calculator__form {
@@ -40,6 +58,13 @@
   align-items: center;
   margin-top: 36px;
 }
+@media (max-width: 321px) {
+  .title-calculator__div {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 50px 50px;
+  }
+}
 
 .time-calculator__btn {
   position: absolute;
@@ -51,6 +76,11 @@
   border: none;
   background: #000;
   margin-left: 85%;
+}
+@media (max-width: 321px) {
+  .time-calculator__btn {
+    margin-left: 65%;
+  }
 }
 
 .time-calculator__svg {
