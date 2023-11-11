@@ -168,3 +168,11 @@ margin-right: auto;
        
     }
   }
+  
+  @media (max-width: 321px) {
+    .section_choose {
+      display: none;
+       
+       
+    }
+  }
