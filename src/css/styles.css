@@ -10,46 +10,18 @@
 @import url("./google-dino.css");
 
 .container {
-  width: 620px;
-  height: 3000px;
+  width: 1090px;
+  height: 2222px;
   background-color: white;
   z-index: -1;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-      width: 750px;
-      height: 3250px;
-      background-color: white;
-      z-index: -1;
-      margin-left: auto;
-      margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-      width: 1090px;
-      height: 3500px;
-      background-color: white;
-      z-index: -1;
-      margin-left: auto;
-      margin-right: auto;
-  }
+  justify-content: center;
 }
 
 body {
-  background-image: none;
-  width: 100%;
+  background-image: url(../img/main.png);
+  width: 1500px;
   height: 1300px;
   background-size: cover;
-}
-@media screen and (min-width: 768px) {
-  body {
-    background-image: url(../img/main.png);
-  }
 }
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

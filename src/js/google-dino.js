@@ -20,6 +20,6 @@ let isAlive = setInterval (function() {
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"))
     if(cactusLeft < 50 && cactusLeft > 0 && dinoTop > -40) {
         cactus.classList.remove("cactusMove")
-        alert("GAME OVER")  
+        alert("GAME OVER")
     } 
 }, 10)
