@@ -1,3 +1,7 @@
+.football {
+  padding-bottom: 36px
+}
+
 .football_title {
     text-align: center;
     color: #000;
@@ -8,9 +12,10 @@
     line-height: normal;
     border-top: 2px solid #000;
     padding-top: 25px;
-    width: 536px;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
+    margin-top: 36px;
 }
 @media screen and (min-width: 768px) {
     .football_title {
@@ -23,6 +28,8 @@
         line-height: normal;
         border-top: 2px solid #000;
         padding-top: 30px;
+        margin-top: 0;
+        width: 536px;
     }
   }
   
@@ -45,8 +52,8 @@
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/field.jpg);
-    width: 520px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
