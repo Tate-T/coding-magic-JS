@@ -1,7 +1,9 @@
-<<<<<<< Updated upstream
 .calculator__section {
   margin-top: 36px;
   margin-bottom: 36px;
+  width: 536px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .calculator__title {
@@ -57,19 +59,52 @@
   font-family: Montserrat Alternates;
   font-size: 14px;
 }
-=======
->>>>>>> Stashed changes
 
 
+.caluclator__result {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  width: 95px;
+  background: #d7d7d7;
+  border: none;
+  color: black;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+}
+@media (max-width: 321px) {
+    .caluclator__result {
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
 
+.calculator__btn-detalisation {
+    display: grid;
+    grid-template-rows: 30px 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+}
+@media (max-width: 321px) {
+    .calculator__btn-detalisation {
+      display: block;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
 
-
-
-
-
-    
-   
-
-
-
-
+.calculator__btn {
+  padding: 5px 10px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  background: #000;
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+}
