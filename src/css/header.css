@@ -406,3 +406,7 @@ input:checked+.slider:before {
 
   border-radius: 11px;
 }
+
+.form_header{
+opacity: 0;
+}
