@@ -1,9 +1,4 @@
-
-
-  
-  // header
-  // main
-  const scientists = [ 
+const scientists = [ 
     { 
         name: "Albert", 
         surname: "Einstein", 
