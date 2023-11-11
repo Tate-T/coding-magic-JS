@@ -103,7 +103,14 @@
 }
 @media (max-width: 321px) {
   .num-game__text {
+<<<<<<< Updated upstream
     margin-top: 30px;
     text-align: center;
+=======
+    display: flex;
+    text-align: right;
+    font-family: Montserrat Alternates;
+    font-size: 13px;
+>>>>>>> Stashed changes
   }
 }
