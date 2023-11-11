@@ -1,4 +1,5 @@
 .footer {
+    max-width: 100%;
     height: 220px;
 }
 .close-button{
@@ -8,6 +9,19 @@
     background: none;
 
 }
+@media (max-width: 321px) {
+    .close-button {  
+        
+        margin-left: 230px;
+        margin-bottom: 30px;
+        border: none;
+        background: none;
+        
+       
+       
+    }
+  }
+
 
 .logo-footer {
     width: 40px;
@@ -18,9 +32,9 @@
 .button-footer {
     display: inline-flex;
 
-    align-items: flex-start;
-    color: #FFF;
     
+    color: #FFF;
+
     font-family: Montserrat Alternates;
     font-size: 12px;
     font-style: normal;
@@ -43,6 +57,39 @@
     border-radius: 20px;
     background: #000
 }
+@media (max-width: 321px) {
+    .button-footer {  
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    align-items: flex-start;
+
+    color: #FFF;
+
+    font-family: Montserrat Alternates;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    color: #FFF;
+
+    padding: 10px;
+    
+    gap: 10px;
+    border-radius: 20px;
+    background: #D7D7D7;
+
+    font-family: Montserrat Alternates;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    background: #000
+    }
+  }
 
 .input-footer {
     border: none;
@@ -61,6 +108,30 @@
     border-radius: 20px;
     background: #D7D7D7;
 }
+@media (max-width: 321px) {
+    .input-footer {  
+       
+        border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 80px 10px 10px;
+    align-items: flex-start;
+    gap: 10px;
+
+    color: #7E7E7E;
+
+    font-family: Montserrat Alternates;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    background: #D7D7D7;
+       
+       
+    }
+  }
 
 .svg-close-btn {
     width: 15px;
@@ -89,10 +160,29 @@
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 321px) {
+    .container_footer {  
+        display: block;
+        width: 321px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    
+       
+       
+    }
+  }
 
 .list_footer_fuul {
     display: flex;
-}
+}   
+@media (max-width: 321px) {
+    .list_footer_fuul {  
+        display: block;
+        margin-bottom: 0px;
+    }
+  }
 
 .links_footer_social_network {
     color: #000;
@@ -106,7 +196,7 @@
 
 .title_footer {
     color: #000;
-    
+
     font-family: Montserrat Alternates;
     font-size: 6px;
     font-style: normal;
@@ -116,8 +206,14 @@
 
 .box_footer {
 
-    margin-right: 185px;
+    margin-right: 165px;
 }
+@media (max-width: 321px) {
+    .box_footer {  
+        margin-right: 0px;
+       
+    }
+  }
 
 .box_footer:first-child {
     margin-top: 30px;
@@ -126,6 +222,21 @@
     height: 70px;
     flex-shrink: 0;
 }
+@media (max-width: 321px) {
+    .box_footer:first-child {  
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    display: block;
+    width: 165px;
+    height: 70px;
+    flex-shrink: 0;
+    
+       
+       
+    }
+  }
 
 .box_footer:last-child {
     margin-right: 0px;
@@ -134,9 +245,14 @@
 .list_link_footer_fuul {
     margin-right: 36px;
 }
-
+@media (max-width: 321px) {
+    .list_link_footer_fuul {  
+   margin-right: 0px;
+    }
+  }
 .list_link_footer_fuul:last-child {
     margin-right: 0px;
+   
 }
 
 .list_footer_fuul {
@@ -146,6 +262,19 @@
 .list__social_network {
     width: 207px;
 }
+@media (max-width: 321px) {
+    .list__social_network {  
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    
+       
+       
+    }
+  }
 
 .logo_title_footer {
     margin-top: 30px;
@@ -157,19 +286,40 @@
     line-height: normal;
 }
 .list_link_form_img{
-    margin-right: 318px;
+    margin-right: 380px;
 }
+@media (max-width: 321px) {
+    .list_link_form_img {  
+        
+        margin-right: 190px;
+        
+       
+       
+    }
+  }
 
 .box_img{
     display: flex;
 }
 .box_modal {
-    width: 378px;
+    
     height: 106px;
     flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
 }
+@media (max-width: 321px) {
+    .box_modal {  
+        
+        height: 106px;
+        flex-shrink: 0;
+        margin-left: auto;
+        margin-right: auto;
+        
+       
+       
+    }
+  }
 .link_form_img2:first-child{
     margin-bottom: 46px;
     
@@ -214,13 +364,35 @@ body.show-modal .modal {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 999;
-    
+
     pointer-events: none;
     opacity: 0;
-    
+
     visibility: hidden;
     transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
 }
+@media (max-width: 321px) {
+    .backdrop {  
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+    
+        pointer-events: none;
+        opacity: 0;
+    
+        visibility: hidden;
+        transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+       
+       
+    }
+  }
 
 .modal {
     padding: 24px;
@@ -228,12 +400,31 @@ body.show-modal .modal {
     border-radius: 20px;
     background: #FFF;
     max-width: 463px;
-    width: 100%;
     min-height: 245px;
     background-color: #fff;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 
     transform: scale(1.1);
     transition: transform 200ms ease-in-out;
-}
+} 
+@media (max-width: 321px) {
+    .modal {  
+       
+        width: 260px;
+        padding: 24px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        max-width: 463px;
+        min-height: 245px;
+        background-color: #fff;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    
+        transform: scale(1.1);
+        transition: transform 200ms ease-in-out;
+       
+       
+    }
+  }
