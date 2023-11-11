@@ -53,7 +53,7 @@
 @media (max-width: 321px) {
   .year-game__detalisation {
     display: block;
-    align-items: center;
+    margin-left: 23%;
   }
 }
 
@@ -102,7 +102,7 @@
 @media (max-width: 321px) {
   .year-game__btn {
     padding: 7px 10px 9px 7px;
-    margin-left: 105%;
+    margin-left: 37%;
   }
 }
 
