@@ -18,10 +18,10 @@
 }
 
 body {
-  background-image: url(../img/main.png);
-  width: 1500px;
+  width: 100%;
   height: 1300px;
   background-size: cover;
+  background-image: url(../img/main.png);
 }
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

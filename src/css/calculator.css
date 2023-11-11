@@ -1,6 +1,9 @@
 .calculator__section {
   margin-top: 36px;
   margin-bottom: 36px;
+  width: 536px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .calculator__title {
@@ -56,19 +59,6 @@
   font-family: Montserrat Alternates;
   font-size: 14px;
 }
-<<<<<<< Updated upstream
-=======
-
-
-
-
-
-
-
-
-    
-   
->>>>>>> Stashed changes
 
 
 .caluclator__result {
@@ -118,5 +108,3 @@
   font-family: Montserrat Alternates;
   font-size: 12px;
 }
-
-
