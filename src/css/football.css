@@ -1,20 +1,59 @@
+.football {
+  padding-bottom: 36px
+}
+
 .football_title {
     text-align: center;
     color: #000;
     font-family: Montserrat Alternates;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border-top: 2px solid #000;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 36px;
 }
+@media screen and (min-width: 768px) {
+    .football_title {
+        text-align: center;
+        color: #000;
+        font-family: Montserrat Alternates;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-top: 2px solid #000;
+        padding-top: 30px;
+        margin-top: 0;
+        width: 536px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .football_title {
+        text-align: center;
+        color: #000;
+        font-family: Montserrat Alternates;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-top: 2px solid #000;
+        padding-top: 36px;
+    }
+  }
 
 .game {
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/field.jpg);
-    width: 720px;
-    height: 450px;
+    width: 300px;
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,10 +61,60 @@
     border-radius: 37px;
     border: 2px solid #000;
 }
+@media screen and (min-width: 768px) {
+    .game {
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(../img/field.jpg);
+        width: 620px;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-radius: 37px;
+        border: 2px solid #000;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .game {
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(../img/field.jpg);
+        width: 720px;
+        height: 450px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-radius: 37px;
+        border: 2px solid #000;
+    }
+  }
 
 .ball {
     position: absolute;
     transition: all 1s;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
+@media screen and (min-width: 768px) {
+    .ball {
+        position: absolute;
+        transition: all 1s;
+        width: 45px;
+        height: 45px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .ball {
+        position: absolute;
+        transition: all 1s;
+        width: 50px;
+        height: 50px;
+    }
+  }
