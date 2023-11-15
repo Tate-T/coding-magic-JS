@@ -172,17 +172,14 @@
 }
 header {
   max-width: 100%;
-  display: flex;
+  margin-top: 30px;
   align-items: center;
   height: 80px;
 
 }
 @media (max-width: 321px) {
   header {
-      display: block;
       align-items: center;
-     
-     
   }
 }
 
