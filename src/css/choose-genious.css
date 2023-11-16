@@ -149,7 +149,7 @@ margin-right: auto;
        
     }
   }
-  .container {
+  .container_choose {
 
     width: 1090px;
     padding-left: 15px;
@@ -158,7 +158,7 @@ margin-right: auto;
     margin-right: auto;
   }
   @media (max-width: 321px) {
-    .container {
+    .container_choose {
         width: 321px;
         padding-left: 15px;
         padding-right: 15px;
