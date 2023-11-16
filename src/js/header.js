@@ -1,12 +1,16 @@
 
+document.getElementById("interactiveButton").addEventListener("click", headerModal);
+
 function headerModal() {
-  var dropdownContent = document.getElementById("myDropdown");
-  if (dropdownContent.style.display === "block") {
-    dropdownContent.style.display = "none";
-  } else {
-    dropdownContent.style.display = "block";
-  }
-}
+    var dropdownContent = document.getElementById("myDropdown");
+    var computedStyle = window.getComputedStyle(dropdownContent);
+
+    if (computedStyle.display === "block") {
+        dropdownContent.style.display = "none";
+    } else {
+        dropdownContent.style.display = "block";
+    }
+};
 
 document.addEventListener("DOMContentLoaded", function () {
   var form = document.querySelector('.form_header');
