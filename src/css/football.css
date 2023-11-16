@@ -1,5 +1,11 @@
 .football {
+  display: none;
   padding-bottom: 36px
+}
+@media screen and (min-width: 768px) {
+  .football {
+    display: block;
+  }
 }
 
 .football_title {
