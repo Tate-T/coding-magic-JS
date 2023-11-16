@@ -12,9 +12,13 @@
   color: #000;
   font-family: Montserrat Alternates;
   font-size: 24px;
+  align-items: center;
 }
 @media (max-width: 321px) {
   .main__title {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-size: 30px;
   }
@@ -46,14 +50,14 @@
 
 .year-game__detalisation {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-top: 36px;
+  justify-content: space-between;
 }
 @media (max-width: 321px) {
   .year-game__detalisation {
     display: block;
-    align-items: center;
+    margin-left: 23%;
   }
 }
 
@@ -102,7 +106,7 @@
 @media (max-width: 321px) {
   .year-game__btn {
     padding: 7px 10px 9px 7px;
-    margin-left: 105%;
+    margin-left: 37%;
   }
 }
 
@@ -119,7 +123,6 @@
 @media (max-width: 321px) {
   .year-game__text {
     margin-top: 30px;
-    text-align: center;
-    
+    text-align: center; 
   }
 }

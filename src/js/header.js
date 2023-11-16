@@ -1,14 +1,47 @@
-const headerBtn = document.querySelector(".button_header");
+
+document.getElementById("interactiveButton").addEventListener("click", headerModal);
 
 function headerModal() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+    var dropdownContent = document.getElementById("myDropdown");
+    var computedStyle = window.getComputedStyle(dropdownContent);
 
-window.onclick = function (e) {
-  if (!e.target.matches(headerBtn)) {
-    var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains("show")) {
-      myDropdown.classList.remove("show");
+    if (computedStyle.display === "block") {
+        dropdownContent.style.display = "none";
+    } else {
+        dropdownContent.style.display = "block";
     }
-  }
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+  var form = document.querySelector('.form_header');
+  var closeButton = document.querySelector('.button_close_btn');
+  var saveButton = document.querySelector('.btn_saveAndClose');
+  var backdrop = document.querySelector('.backdrop_header'); // Add this line
+
+
+  function openForm() {
+      console.log('Opening form');
+      form.style.transform = 'scale(1)';
+      backdrop.style.display = 'block'; 
+  }
+
+
+  function closeForm() {
+      console.log('Closing form');
+      form.style.transform = 'scale(1.1)';
+      backdrop.style.display = 'none'; 
+  }
+
+  function saveAndClose(event) {
+      event.preventDefault(); 
+      console.log('Saving and closing form');
+      
+      closeForm();
+  }
+
+ 
+  closeButton.addEventListener('click', closeForm);
+  saveButton.addEventListener('click', saveAndClose);
+
+ 
+});
