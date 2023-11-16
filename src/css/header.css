@@ -5,7 +5,7 @@
 @media (max-width: 321px) {
   .list_header {
       display: block;
-      margin-left: 0px;
+     margin-left: 0px;
       justify-content: center;
       text-align: center;
   }
@@ -172,16 +172,20 @@
 }
 header {
   max-width: 100%;
-  margin-top: 30px;
+display: flex;
   align-items: center;
   height: 80px;
 
 }
 @media (max-width: 321px) {
   header {
-      align-items: center;
+      display: block;
+     height: 100%;
+     
+     
   }
 }
+
 
 nav {
   display: flex;
@@ -254,6 +258,7 @@ nav {
 }
 @media (max-width: 321px) {
   .svg-logo {
+      
      margin-left: auto;
      margin-right: auto;
      
@@ -413,6 +418,14 @@ input:checked+.slider:before {
   left: 0;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 999;
+}
+@media (max-width: 321px) {
+  .backdrop_header {  
+      
+    display: none;
+     
+     
+  }
 }
 .form_header{
   background-color: white;
