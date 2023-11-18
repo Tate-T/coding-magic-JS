@@ -2,6 +2,7 @@ import "./js/header";
 import "./js/year-game";
 import "./js/computer-num-game";
 import "./js/calculator";
+import "./js/k-n-p";
 import "./js/time-calculator";
 import "./js/our-team";
 import "./js/football";
