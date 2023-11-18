@@ -1,3 +1,12 @@
+.three_numbers_game {
+  width: 536px;
+}
+@media screen and (min-width: 768px) {
+  .three_numbers_game {
+      width: 100%;
+  }
+}
+
 .title {
     text-align: center;
     color: #000;
