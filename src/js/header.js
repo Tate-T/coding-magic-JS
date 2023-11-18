@@ -46,14 +46,13 @@ document.addEventListener("DOMContentLoaded", function () {
  
 });
 
+const switchEl = document.querySelector(".switch");
+const containerEl = document.querySelector(".container");
+const bodyEl = document.querySelector("body");
 
-function showSection(sectionId) {
-    document.getElementById('time-calculator').style.display = 'none';
-    document.getElementById('.google-dino').style.display = 'none';
-    document.getElementById('.our-team__section').style.display = 'none';
-
+    switchEl.addEventListener("change", () => {
+      containerEl.style.backgroundColor = "#333";
+      bodyEl.style.backgroundColor = "#2e859e";
+    });
   
-    document.getElementById(sectionId).style.display = 'block';
-
-    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' })
-  }
+  
