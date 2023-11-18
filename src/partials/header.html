@@ -1,46 +1,45 @@
 <header> 
 
-  <div class="container">
-     <nav>
-         <img class="svg-logo" src="../img/Group 2.png" alt="">
-         <a class="logo_title" href="/"><span class="span_header">Coding</span><br>Magic</a>
-         <ul class="list_header">
-         <div class="dropdown">
-          <button class="button_header" onclick="headerModal()"><a class="links-header"
-            href="/">Інтерактив</a>
-        <svg class="svg-button-header">
-            <use href=""></use>
-        </svg>
-    </button>
-             <div class="dropdown-content" id="myDropdown">
-                 <ul class="list-form">
-                     <li class="list-link-form-header"><a class="links-modal" href="/">Числовий</a></li>
-                     <li class="list-link-form-header"><a class="links-modal" href="/">Ігровий</a></li>
-                     <li class="list-link-form-header"><a class="links-modal" href="/">Ознайомчий</a></li>
-                 </ul>
-             </div>
-         </div>
-             <li class="list-link-header"><a class="links-header" href="/">Наша команда</a></li>
-             <li class="list-link-header"><a class="links-header" href="/">Контакти</a></li>
-         </ul>
-         <div class="box-header">
-
-             <label class="switch">
-                 <input type="checkbox">
-                 <span class="slider round"></span>
-             </label>
-             <h2 class="title-header">Вітаємо, User!</h2>
-
-
-     </nav>
- </div>
-<form class="form_header" action="">
-    <button></button>
-    <div>
-        <ul>
-            <li><p></p></li>
-            <li></li>
-        </ul>
-    </div>
-</form>
-</header>
+    <div class="container">
+       <nav>
+           <img class="svg-logo" src="../img/Group 2.png" alt="">
+           <a class="logo_title" href="/"><span class="span_header">Coding</span><br>Magic</a>
+           <ul class="list_header">
+           <div class="dropdown">
+              <button class="button_header" id="interactiveButton">Інтерактив</button>
+               <div class="dropdown-content" id="myDropdown">
+                   <ul class="list-form">
+                       <li class="list-link-form-header"><a class="links-modal" href="/">Числовий</a></li>
+                       <li class="list-link-form-header"><a class="links-modal" href="/">Ігровий</a></li>
+                       <li class="list-link-form-header"><a class="links-modal" href="/">Ознайомчий</a></li>
+                   </ul>
+               </div>
+           </div>
+               <li class="list-link-header"><a class="links-header" href="/">Наша команда</a></li>
+               <li class="list-link-header"><a class="links-header" href="/">Контакти</a></li>
+           </ul>
+           <div class="box-header">
+  
+               <label class="switch">
+                   <input type="checkbox">
+                   <span class="slider round"></span>
+               </label>
+               <h2 class="title-header">Вітаємо, User!</h2>
+  
+  
+       </nav>
+   </div>
+   <div class="backdrop_header">
+      <form class="form_header" action="">
+          <button class="button_close_btn" onclick="closeForm()"><img src="../img/Vector 234.png" alt=""></button>
+          <div class="box_form_header">
+              <ul>
+                  <li><p class="text_header_form">Привіт! Ви потрапили на сайт інтерактивних ігор та завдань Надіємось, що вам сподобається і ви отримаєте позитивні емоції! Бажаємо Вам гарно провести час!</p></li>
+                  <li><h2 class="title_header_form">Введіть своє ім’я:</h2></li>
+                  <li><input placeholder="Ваше ім’я..." class="input_header_form" type="text"></li>
+                  <li><button class="btn_saveAndClose" onclick="saveAndClose()">Зберегти</button></li>
+              </ul>
+          </div>
+      </form>
+      </div>
+  </header>
