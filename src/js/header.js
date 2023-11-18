@@ -45,3 +45,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
  
 });
+
+
+function showSection(sectionId) {
+    document.getElementById('time-calculator').style.display = 'none';
+    document.getElementById('.google-dino').style.display = 'none';
+    document.getElementById('.our-team__section').style.display = 'none';
+
+  
+    document.getElementById(sectionId).style.display = 'block';
+
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' })
+  }

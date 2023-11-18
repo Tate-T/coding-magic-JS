@@ -181,7 +181,7 @@ margin-top: 30px;
   header {
     margin: 0px;
       display: block;
-     height: 100%;
+     height: 200px;
      
      
   }
@@ -201,7 +201,7 @@ nav {
   }
 }
 
-.container {
+.container_header {
 
   width: 1090px;
   padding-left: 15px;
@@ -210,7 +210,7 @@ nav {
   margin-right: auto;
 }
 @media (max-width: 321px) {
-  .container {
+  .container_header {
       width: 321px;
       padding-left: 15px;
       padding-right: 15px;
