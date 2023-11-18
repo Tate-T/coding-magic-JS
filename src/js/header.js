@@ -45,3 +45,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
  
 });
+
+const switchEl = document.querySelector(".switch");
+const containerEl = document.querySelector(".container");
+const bodyEl = document.querySelector("body");
+
+    switchEl.addEventListener("change", () => {
+      containerEl.style.backgroundColor = "#333";
+      bodyEl.style.backgroundColor = "#2e859e";
+    });
+  
+  
