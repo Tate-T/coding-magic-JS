@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Bruden-project/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>Vanilla App Template</title>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="module" crossorigin src="/Bruden-project/assets/index-70d07a4a.js"></script>
+    <link rel="stylesheet" href="/Bruden-project/assets/index-e742446f.css">
+  </head>
+  <body>
+    <div class="container">
+    <header> 
+
+    <div class="container">
+       <nav>
+           <img class="svg-logo" src="../img/Group 2.png" alt="">
+           <a class="logo_title" href="/"><span class="span_header">Coding</span><br>Magic</a>
+           <ul class="list_header">
+           <div class="dropdown">
+              <button class="button_header" id="interactiveButton">Інтерактив</button>
+               <div class="dropdown-content" id="myDropdown">
+                   <ul class="list-form">
+                       <li class="list-link-form-header"><a class="links-modal" href="/">Числовий</a></li>
+                       <li class="list-link-form-header"><a class="links-modal" href="/">Ігровий</a></li>
+                       <li class="list-link-form-header"><a class="links-modal" href="/">Ознайомчий</a></li>
+                   </ul>
+               </div>
+           </div>
+               <li class="list-link-header"><a class="links-header" href="/">Наша команда</a></li>
+               <li class="list-link-header"><a class="links-header" href="/">Контакти</a></li>
+           </ul>
+           <div class="box-header">
+  
+               <label class="switch">
+                   <input type="checkbox">
+                   <span class="slider round"></span>
+               </label>
+               <h2 class="title-header">Вітаємо, User!</h2>
+  
+  
+       </nav>
+   </div>
+   <div class="backdrop_header">
+      <form class="form_header" action="">
+          <button class="button_close_btn" onclick="closeForm()"><img src="../img/Vector 234.png" alt=""></button>
+          <div class="box_form_header">
+              <ul>
+                  <li><p class="text_header_form">Привіт! Ви потрапили на сайт інтерактивних ігор та завдань Надіємось, що вам сподобається і ви отримаєте позитивні емоції! Бажаємо Вам гарно провести час!</p></li>
+                  <li><h2 class="title_header_form">Введіть своє ім’я:</h2></li>
+                  <li><input placeholder="Ваше ім’я..." class="input_header_form" type="text"></li>
+                  <li><button class="btn_saveAndClose" onclick="saveAndClose()">Зберегти</button></li>
+              </ul>
+          </div>
+      </form>
+      </div>
+  </header>
+    <section class="year-game__section">
+  <h1 class="main__title">Популярні інтерактивні ігри</h1>
+
+  <h2 class="year-game__title">Перевір в який рік ти народився</h2>
+  <div class="year-game__detalisation">
+    <form action="" class="year-game__form">
+      <input
+        type="text"
+        class="year-game__input"
+        placeholder="Введіть рік народження"
+      />
+      <button class="year-game__btn" type="button">
+        <svg class="year-game__svg">
+          <use href="../img/svg104.svg#lupa"></use>
+        </svg>
+      </button>
+    </form>
+    <p class="year-game__text">відповідь буде тут</p>
+  </div>
+</section>
+    <section class="num-game__section">
+  <h2 class="num-game__title">Вгадай число, яке загадав комп’ютер від 1 до 100</h2>
+<div class="num-game__detalisation">
+  <form action="" class="num-game__form">
+    <input
+      type="text"
+      class="num-game__input"
+      placeholder="Введіть число"
+    />
+    <button class="num-game__btn" type="button">
+      <svg class="num-game__svg">
+        <use href="../img/svg104.svg#lupa"></use>
+      </svg>
+    </button>
+  </form>
+  <p class="num-game__text">відповідь буде тут</p> 
+</div>
+</section>
+    <section class="k-n-p__section">
+  <h1 class="k-n-p__title">Камінь - ножиці - папір</h1>
+  <div class="k-n-p__btns">
+    <button class="k-n-p__btn" id="rock">
+      <img src="../img/stone 1.png" alt="rock" />
+    </button>
+    <button class="k-n-p__btn" id="scissors">
+      <img src="../img/scissors 1.png" alt="scissors" />
+    </button>
+    <button class="k-n-p__btn" id="paper">
+      <img src="../img/paper 1.png" alt="paper" />
+    </button>
+    
+    <div class="k-n-p__scores">
+      <p class="k-n-p__score">Разунок:</p>
+      <p class="k-n-p__computer-score">Комп'ютер-0</p>
+      <p class="k-n-p__your-score">Ви-0</p>
+    </div>
+  </div>
+
+  <p class="k-n-p__result">Результат тут</p>
+  <button class="k-n-p__computer-choose">Варіант комп’ютера</button>
+
+</section>
+
+    <section class="calculator__section">
+  <h2 class="calculator__title">Калькулятор</h2>
+  <div class="calculator__detalisation">
+    <input id="num1" class="caluclator__input" type="text" placeholder="Введіть число" />
+    <div class="calculator__btn-detalisation">
+    <button id="plus" class="calculator__btn" type="button">+</button>
+    <button id="multiply" class="calculator__btn" type="button">*</button>
+    <button id="minus" class="calculator__btn" type="button">-</button>
+    <button id="divide" class="calculator__btn" type="button">/</button>
+</div>
+    <input id="num2" class="caluclator__input" type="text" placeholder="Введіть число" />
+    <button id="equal" class="calculator__btn" type="button">=</button>
+    <p id="result" class="caluclator__result" type="text">Результат</p>
+  </div>
+</section>
+
+    <section class="time-calculator__section">
+  <h1 class="title-calculator__title">Калькулятор часу</h1>
+  <div class="title-calculator__div">
+    <form action="" class="time-calculator__form">
+      <input
+        type="text"
+        class="time-calculator__input"
+        placeholder="Введіть число"
+      />
+      <button class="time-calculator__btn" type="button">
+        <svg class="time-calculator__svg">
+          <use href="../img/svg104.svg#lupa"></use>
+        </svg>
+      </button>
+    </form>
+    <svg
+      class="title-calculator__svg-vector"
+      xmlns="http://www.w3.org/2000/svg"
+      width="100"
+      height="2"
+      viewBox="0 0 100 2"
+      fill="none"
+    >
+      <path d="M0 1H100" stroke="black" stroke-dasharray="2 2" />
+    </svg>
+    <p class="time-calculator__answer">0дн. 00:00:00</p>
+  </div>
+</section>
+ 
+    <section class="google-dino">
+<h2 class="dino_title">Google динозавр</h2>
+    <div class="wrap">
+        <div class="dino"></div>
+        <div class="cactus"></div>
+    </div>
+</section>
+    <section class="football">
+    <h2 class="football_title">Футбол</h2>
+    <div class="game">
+        <img class="ball" src="../img/ball.png" alt="ball">
+    </div>
+</section> 
+    <section class="three_numbers_game"> 
+    <h2 class="title">Введіть 3 числа</h2> 
+        <div class="number_wrap"> 
+        <input placeholder="Введіть число" class="number_item" name="number1" type="text"> 
+        <input placeholder="Введіть число" class="number_item" name="number2" type="text"> 
+        <input placeholder="Введіть число" class="number_item" name="number3" type="text"> 
+    </div> 
+    <p class="number_result">Найбільше число, яке ви ввели - буде тут</p> 
+</section>
+    <section class="our-team__section">
+  <h1 class="our-team__title">Наша команда</h1>
+  <ul class="our-team__slider">
+    <li class="our-team__slid active">
+      <img class="our-team__img" src="../img/photo_Timur.jpg" alt="Тімур" />
+      <h2 class="our-team__person">Тімур</h2>
+      <p class="our-team__text">dinosaur, football, three numbers</p>
+    </li>
+    <li class="our-team__slid">
+      <img class="our-team__img" src="../img/photo_Diana.jpg" alt="Діана" />
+      <h2 class="our-team__person">Діана</h2>
+      <p class="our-team__text">time-calculator, our team</p>
+    </li>
+    <li class="our-team__slid">
+      <img class="our-team__img" src="../img/photo_Maks.jpg" alt="Максим" />
+      <h2 class="our-team__person">Максим</h2>
+      <p class="our-team__text">header, select scientist, footer</p>
+    </li>
+    <li class="our-team__slid">
+      <img class="our-team__img" src="../img/photo_Oleg.jpg" alt="Олег" />
+      <h2 class="our-team__person">Олег</h2>
+      <p class="our-team__text">
+        K-N-P, check the year of birth, guess the number, calculator
+      </p>
+    </li>
+  </ul>
+  <div class="our-team__buttons">
+    <button class="prev button-l"></button>
+    <button class="next button-r"></button>
+  </div>
+  <div class="indicator-dots">
+    <span class="dot"></span>
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+    <section class="section_choose">
+    <div class="container_choose">
+        <h3 class="logo-title-choose">Обери вченого/их</h3>
+        <ul class="scientists">
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+            <li class="scientist"></li>
+        </ul>
+        <div class="box-sort">
+            <ul class="sort-list">
+                <li class="sort-list-item">Які вчені народилися в 19 ст.</li>
+                <li class="sort-list-item">Відсортувати вчених за алфавітом</li>
+                <li class="sort-list-item">Відсортувати вчених за кількістю прожитих років</li>
+                <li class="sort-list-item">Знайти вченого, який народився найпізніше</li>
+            </ul>
+            <ul class="sort-list">
+                <li class="sort-list-item">Знайти рік народження Albert Einshtein</li>
+                <li class="sort-list-item">Знайти вчених, прізвища яких починаються на на літеру “С”</li>
+                <li class="sort-list-item">Видалити всіх вчених, ім’я яких починається на “А”</li>
+                <li class="sort-list-item">Знайти вченого, який прожив найдовше і вченого,<br> який прожив найменше
+                </li>
+            </ul>
+
+        </div>
+        <p class="text-list-item">Знайти вчених, в яких співпадають перші літери імені і прізвища</p>
+    </div>
+</section> 
+    <footer>
+    <div class="container_footer">
+        <div class="box_footer">
+            <img class="svg-logo" src="../img/Group 2.png" alt="">
+            <a class="logo_title" href="/"><span class="span_header">Coding</span><br>Magic</a>
+        </div>
+        <div class="box_footer">
+            <ul class="list__social_network">
+                <li class="list-link-footer"><a class="links_footer_social_network"
+                        href="tel:+38 (123) 456 78 90">Тел: +38 (123) 456 78 90</a></li>
+                <li class="list-link-footer"><a class="links_footer_social_network"
+                        href="mailto:codingmagic@gmail.com">E-Mail: codingmagic@gmail.com</a></li>
+                <li class="list-link-footer"><a class="links_footer_social_network" href="">Facebook:
+                        CodingMagic</a></li>
+                <li class="list-link-footer"><a class="links_footer_social_network" href="">Twitter: CodingMagic</a>
+                </li>
+                <li class="list-link-footer"><a class="links_footer_social_network" href="">Instagram:
+                        CodingMagic</a></li>
+            </ul>
+        </div>
+        <div class="box_footer">
+            <ul class="list_footer_fuul">
+                <li class="list_link_footer_fuul"><input placeholder="Ваша ел. адреса..." class="input-footer"
+                        type="Ваша ел. адреса..."></li>
+                <li class="list_link_footer_fuul"><button class="button-footer" type="button">Підписатись</button>
+                </li>
+            </ul>
+            <h2 class="title_footer">*Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті</h2>
+            <div class="backdrop js-backdrop">
+                <form class="modal">
+                    <button class="close-button" type="submit"><img class="svg-close-btn" src="../img/Vector 234.png"
+                            alt=""></button>
+                    <div class="box_modal">
+                        <h2 class="title-form-footer">Дякую за підписку!</h2>
+                        <div class="box_img">
+                       
+                        <ul class="list_link_form_img">
+                            <li class="link_form_img2"> <img class="form_img2" src="../img/sword 1.png" alt=""></li>
+                            <li class="link_form_img2"> <img class="form_img2" src="../img/puzzle 1.png" alt=""></li>
+                        </ul>
+                        <ul>
+                            <li class="link_form_img"> <img class="form_img" src="../img/game-development 1.png" alt=""></li>
+
+                            <li class="link_form_img"> <img class="form_img" src="../img/tic-tac-toe 1.png" alt=""></li>
+                        </ul>
+                    </div>
+                    </div>
+                </form>
+            </div>
+</footer>  
+  </div>
+  </div>
+    
+  </body>
+</html>
