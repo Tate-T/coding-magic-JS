@@ -1,11 +1,11 @@
 {
-  "name": "Bruden-project",
+  "name": "coding-magic-JS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Bruden-project/",
+    "build": "vite build --base=/coding-magic-JS/",
     "preview": "vite preview"
   },
   "devDependencies": {
