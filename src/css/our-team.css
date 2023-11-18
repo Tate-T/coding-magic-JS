@@ -1,9 +1,44 @@
 .our-team__section {
   margin-top: 36px;
   margin-bottom: 36px;
-  width: 536px;
+  /* width: 100%; */
+  max-width: 536px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+
+.our-team__text {
+  color: #000;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 321px) {
+  .our-team__text {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.prev {
+  background-image: url(../img/Vector\ 231.png);
+  width: 52px;
+  height: 100px;
+  border: none;
+  background-color: #ffff;
+}
+
+.next {
+  background-image: url(../img/Vector\ 230.png);
+  width: 52px;
+  height: 100px;
+  border: none;
+  background-color: #ffff;
 }
 
 .our-team__title {
@@ -15,29 +50,31 @@
   line-height: normal;
   text-align: center;
   padding-top: 36px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 36px;
   border-top: 2px solid #000;
-  width: 536px;
+  width: 100%;
+  max-width: 536px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
 }
+
 @media (max-width: 321px) {
   .our-team__title {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 36px;
-    border-top: 2px solid #000;
-    width: 300px;
-    justify-content: center;
+    width: 100%;
+    max-width: 300px;
   }
 }
 
 .our-team__slider {
   display: flex;
+  justify-content: center;
 }
 
 .our-team__slid {
   align-items: center;
+  position: relative;
+  text-align: center;
 }
 
 .our-team__img {
@@ -45,6 +82,10 @@
   height: 150px;
   border-radius: 20px;
   background: #d9d9d9;
+  max-width: 536px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .our-team__person {
@@ -55,31 +96,10 @@
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  position: relative;
+  margin-bottom: 20px;
 }
 
-.prev {
-  background-image: url(../img/Vector\ 231.png);
-  width: 55px;
-  height: 100px;
-  border: none;
-  background-color: #ffff;
-}
-.next {
-  background-image: url(../img/Vector\ 230.png);
-  width: 55px;
-  height: 100px;
-  border: none;
-  background-color: #ffff;
-}
-
-.our-team__text {
-  color: #000;
-  font-family: Montserrat Alternates;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 .our-team__slid {
   display: none;
 }
@@ -90,7 +110,7 @@
 
 .indicator-dots {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 
 .indicator-dots .dot {
@@ -105,4 +125,14 @@
 
 .indicator-dots .dot.active {
   background-color: #555;
+}
+
+.our-team__buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9px;
 }
