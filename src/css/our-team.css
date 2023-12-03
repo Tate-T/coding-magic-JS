@@ -38,7 +38,7 @@
 }
 
 .prev {
-  background-image: url(../img/Vector\ 231.png);
+  background-image: url(./img/arrow-prev.png);
   width: 52px;
   height: 100px;
   border: none;
@@ -46,7 +46,7 @@
 }
 
 .next {
-  background-image: url(../img/Vector\ 230.png);
+  background-image: url(./img/arrow-next.png);
   width: 52px;
   height: 100px;
   border: none;
