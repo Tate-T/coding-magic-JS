@@ -26,14 +26,15 @@
     
     
     
-    <script type="module" crossorigin src="/coding-magic-JS/assets/index-12a92111.js"></script>
-    <link rel="stylesheet" href="/coding-magic-JS/assets/index-574fc826.css">
+    <script type="module" crossorigin src="/coding-magic-JS/assets/index-33f4d7af.js"></script>
+    <link rel="stylesheet" href="/coding-magic-JS/assets/index-7cc3dffc.css">
   </head>
   <body>
     <div class="container">
     <header> 
+   
 
-    <div class="container">
+    <div class="container_headernp">
        <nav>
            <img class="svg-logo" src="../img/Group 2.png" alt="">
            <a class="logo_title" href="/"><span class="span_header">Coding</span><br>Magic</a>
@@ -42,9 +43,9 @@
               <button class="button_header" id="interactiveButton">Інтерактив</button>
                <div class="dropdown-content" id="myDropdown">
                    <ul class="list-form">
-                       <li class="list-link-form-header"><a class="links-modal" href="/">Числовий</a></li>
-                       <li class="list-link-form-header"><a class="links-modal" href="/">Ігровий</a></li>
-                       <li class="list-link-form-header"><a class="links-modal" href="/">Ознайомчий</a></li>
+                       <li class="list-link-form-header"><a class="links-modal" onclick="showSection('time-calculator')" href="#time-calculator">Числовий</a></li>
+                       <li class="list-link-form-header"><a class="links-modal" onclick="showSection('google-dino')" href="#google-dino">Ігровий</a></li>
+                       <li class="list-link-form-header"><a class="links-modal" onclick="showSection('our-team')" href="#our-team">Ознайомчий</a></li>
                    </ul>
                </div>
            </div>
@@ -75,6 +76,7 @@
           </div>
       </form>
       </div>
+     
   </header>
     <section class="year-game__section">
   <h1 class="main__title">Популярні інтерактивні ігри</h1>
@@ -155,7 +157,7 @@
   </div>
 </section>
 
-    <section class="time-calculator__section">
+    <section id="time-calculator" class="time-calculator__section">
   <h1 class="title-calculator__title">Калькулятор часу</h1>
   <div class="title-calculator__div">
     <form action="" class="time-calculator__form">
@@ -184,7 +186,7 @@
   </div>
 </section>
  
-    <section class="google-dino">
+    <section id="google-dino" class="google-dino">
 <h2 class="dino_title">Google динозавр</h2>
     <div class="wrap">
         <div class="dino"></div>
@@ -206,7 +208,7 @@
     </div> 
     <p class="number_result">Найбільше число, яке ви ввели - буде тут</p> 
 </section>
-    <section class="our-team__section">
+    <section id="our-team" class="our-team__section">
   <h1 class="our-team__title">Наша команда</h1>
   <ul class="our-team__slider">
     <li class="our-team__slid active">
